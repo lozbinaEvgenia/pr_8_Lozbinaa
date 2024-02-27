@@ -1,7 +1,8 @@
 fun main()
 {
-    var tovar=Tovar()
-    tovar.SetInfo()
+    var train1 = Train()
+    train1.SetInfo()
+    //train1.Constructor(34, "", "", "", "", "")
     println()
-    print(tovar.GetInfo())
+    println(train1.GetInfo())
 }
